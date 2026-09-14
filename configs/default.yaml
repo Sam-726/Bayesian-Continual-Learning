@@ -1,0 +1,14 @@
+seed: 42
+data_root: ./data
+results_root: ./results
+epochs: 3
+batch_size: 128
+learning_rate: 0.001
+hidden1: 256
+hidden2: 128
+kl_beta: 0.001
+posterior_samples: 10
+num_tasks: 5
+num_workers: 0
+device: auto
+data_fraction: 1.0
